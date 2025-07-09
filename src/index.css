@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mainContainer {
+    max-height: 100vh;
+  }
+
+  .main-child {
+    min-height: 90;
+  }
+
+
+  
